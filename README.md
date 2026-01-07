@@ -2,19 +2,19 @@
 
 A comprehensive end-to-end financial analytics project covering revenue forecasting, customer churn prediction, and profitability analysis for SaaS/subscription-based businesses.
 
-### 🎯 Business Objectives
+###  Business Objectives
 
 1. **Revenue Forecasting** - Predict future revenue with 90%+ accuracy using time series models
 2. **Churn Prediction** - Identify at-risk customers before they leave
 3. **Profitability Analysis** - Segment customers and optimize resource allocation
 4. **Cohort Analysis** - Track customer behavior and retention over time
 
-### 💡 Key Results
+###  Key Results
 
-- 📈 **Revenue Forecast**: ${forecast.sum():,.0f} predicted for next 12 months
-- 🎯 **Churn Model Accuracy**: {churn_results[best_churn_model_name]['roc_auc']:.1%} ROC AUC
-- 💰 **Identified Value**: ${at_risk_mrr * 12:,.0f} annual revenue at risk
-- 👥 **Customer Segments**: {optimal_k} distinct groups with targeted strategies
+-  **Revenue Forecast**: ${forecast.sum():,.0f} predicted for next 12 months
+-  **Churn Model Accuracy**: {churn_results[best_churn_model_name]['roc_auc']:.1%} ROC AUC
+-  **Identified Value**: ${at_risk_mrr * 12:,.0f} annual revenue at risk
+-  **Customer Segments**: {optimal_k} distinct groups with targeted strategies
 
 ---
 
@@ -118,7 +118,7 @@ python financial_analytics.py
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 ```
 pandas>=1.3.0
 numpy>=1.21.0
@@ -211,7 +211,7 @@ scipy>=1.7.0
 
 ---
 
-## 🔍 Methodology Details
+##  Methodology Details
 
 ### 1. Data Generation
 Since this is a teaching project, we generated realistic synthetic data:
@@ -248,7 +248,7 @@ Since this is a teaching project, we generated realistic synthetic data:
 
 ---
 
-## 💻 Code Examples
+##  Code Examples
 
 ### Time Series Forecasting
 ```python
@@ -293,7 +293,7 @@ rfm['segment'] = pd.qcut(rfm['recency'], q=5, labels=[5,4,3,2,1])
 
 ---
 
-## 📚 Resources & References
+##  Resources & References
 
 ### Datasets
 - Synthetic data generated for teaching purposes
@@ -312,7 +312,7 @@ rfm['segment'] = pd.qcut(rfm['recency'], q=5, labels=[5,4,3,2,1])
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 This project template can be adapted for:
 - **SaaS Companies**: Subscription revenue forecasting
@@ -336,6 +336,3 @@ This project template can be adapted for:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License - see below:
