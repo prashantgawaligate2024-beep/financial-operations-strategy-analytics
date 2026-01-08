@@ -18,7 +18,7 @@ A comprehensive end-to-end financial analytics project covering revenue forecast
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 financial-operations-analytics/
 │
@@ -323,7 +323,7 @@ This project template can be adapted for:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real-time prediction API (Flask/FastAPI)
 - [ ] Interactive dashboard (Plotly Dash/Streamlit)
